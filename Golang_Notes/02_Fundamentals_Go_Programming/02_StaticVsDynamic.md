@@ -1,4 +1,4 @@
-### **Static vs Dynamic Type Languages**
+## **Static vs Dynamic Type Languages**
 
 Programming languages can be classified into two categories based on how they handle data types: **statically typed** and **dynamically typed**. The distinction comes down to **when** and **how** types are checked and enforced in the program.
 

@@ -1,4 +1,4 @@
-### Overview of Go Program Structure
+## Overview of Go Program Structure
 
 A Go program is designed with a clear and concise structure that promotes readability, maintainability, and scalability. The basic building blocks of a Go program include **packages**, **functions**, and **imports**. Go’s simplicity allows developers to write clean, efficient, and reliable code, which is particularly well-suited for modern, large-scale systems.
 

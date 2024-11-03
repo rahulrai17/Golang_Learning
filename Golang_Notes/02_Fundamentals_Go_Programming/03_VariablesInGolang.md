@@ -1,3 +1,5 @@
+## Variables In Golang
+
 In Go, there are several ways to declare variables, and each method has its own use cases. Let’s explore the different ways you can declare variables, their syntax, and best practices regarding when to use each method.
 
 ---
