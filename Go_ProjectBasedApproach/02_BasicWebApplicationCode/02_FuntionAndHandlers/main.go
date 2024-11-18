@@ -42,3 +42,12 @@ func main() {
 	// Start the server and listen on port 8080
 	http.ListenAndServe(portNumber, nil)
 }
+
+
+// Summary
+// This Go program sets up a simple HTTP server that listens on port 8080. It has two route handlers:
+
+// Home handler (at "/"): responds with the text "This is the home page".
+// About handler (at "/about"): calls addValues (which adds 2 + 2), then responds with "This is the about page and 2 + 2 is 4".
+
+// The main function registers these handlers and starts the server. When a user visits http://localhost:8080/, they'll see the home page, and http://localhost:8080/about will show the about page with the calculated result.
