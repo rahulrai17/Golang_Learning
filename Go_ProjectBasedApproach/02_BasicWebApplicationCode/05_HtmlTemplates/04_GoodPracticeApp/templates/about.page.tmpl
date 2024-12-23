@@ -1,0 +1,11 @@
+{{template "base" .}}
+
+<!-- This is how you use the content block from the base.layout.tmpl-->
+{{define "content"}}
+    <!-- This is the content code here-->
+    <div>
+      <h1>Hello Everyone!</h1>
+      <p>This is the about section of this page</p>
+      <p>This came from the template:{{index .StringMap "test"}}</p>
+    </div>
+{{end}}

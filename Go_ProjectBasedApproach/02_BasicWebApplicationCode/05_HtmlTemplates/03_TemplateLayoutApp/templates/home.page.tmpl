@@ -1,0 +1,20 @@
+{{template "base" .}}
+
+<!-- This is how you use the content block from the base.layout.tmpl-->
+{{define "content"}}
+    <!-- This is the content code here-->
+    <div>
+      <h1>Hello Everyone!</h1>
+      <p>Welcome to Golang Learning</p>
+      <h2>You can check the below links as well <h2>
+      <nav>
+        <ul>
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/hometwo">Home Two</a></li>
+            <li><a href="/homethree">Home Three</a></li>
+        </ul>
+    </nav>
+    </div>
+
+
+{{end}}
